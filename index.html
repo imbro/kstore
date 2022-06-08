@@ -47,8 +47,10 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">Application Android</a></li>
                 </ul>
+                <!-- Button trigger modal -->
+
                 <form class="d-flex">
-                    <button class="btn btn-outline-light rounded-pill color" type="submit"> &nbsp;  Connexion &nbsp; &nbsp;
+                    <button class="btn btn-outline-light rounded-pill color" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> &nbsp;  Connexion &nbsp; &nbsp;
                         <img
                         src="Ptit-KStore.png"
                         class="rounded-circle"
@@ -67,144 +69,465 @@
     <br style="background-color: white;">
     <!---->
     
-    <main style="background-color: black;">
-        <br>
-        <div class="container" >
+    <main class="container-fluid !direction !spacing "   style="background-color: #ffffff; color: #ffffff;">
 
-            <!-- ROW -->
-            <div class="row">
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-12 px-0 ">
+                
+                
+                <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+                    <div class="col">
+                          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Notre <br> Selection</h2>
+                          
+                        
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-75 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('image33.jpg');">
+                          <div class="d-flex flex-column h-75 p-5 pb-6 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Entrepreuneur </h2>
 
-                <!-- COLUMN - SIDE_BAR -->
-                <div class="col-3 " style="background-color: #161d1c; border-radius: 0px 30px 30px 0px;" >
-
-                    <!-- Row-1 -->
-                    <div class="row">
-
-                        <!-- Column -->
-                        <div class="col" style="text-align: center;
-
-                                font-weight: bold;
-
-                                font-size: 25px">Menu
-
-                        </div><!-- fin Column -->
-                    </div><!-- Row -->
-
-                    <hr>
-                    <!-- This row contains the menu items-->
-
-                    <!-- Row-2 -->
-                    <div class="row"">
-
-                        <div class="col list-group list-group-flush border-bottom scrollarea" style="text-align: center;
-                                color: white;
-                                padding: 15px;">
-
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            <a href="#" class="list-group-item list-group-item-action" style="background-color: #161d1c; color: white;"><strong class="mb-1">XXXX</strong></a>
-                            
+                          </div>
                         </div>
-                    </div><!-- fin Row-2 -->
-                </div><!-- FIN - COLUMN - SIDE_BAR-->
-
-                <!-- COLUMN -2 - Containe -->
-                <div class="col-9">
-
-                    <!-- Ligne -1 - Titre -->
-                    <div class="row" style="height: 50px">
-
-                        <div class="col" 
-                            style="text-align: center;
-                                font-weight: bold;
-                                font-size: 25px;
-                        ">
-                            Page Content
+                      </div>
+              
+                    <div class="col">
+                      <div class="card card-cover h-75 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('image41.jpg');">
+                        <div class="d-flex flex-column h-75 p-5 pb-6 text-white text-shadow-1">
+                          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">On Vote !</h2>
                         </div>
-                    </div><!-- Fin Column -1 - Titre -->
+                      </div>
+                    </div>
+              
+                    <div class="col">
+                      <div class="card card-cover h-75 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('image39.png');">
+                        <div class="d-flex flex-column h-75 p-5 pb-6 text-shadow-1">
+                          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Safari</h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
 
-                    <!-- Ligne -2- contenu-->
-                    <div class="row">
+            </div>
+        </div>
 
-                        <div class="col">
+        <div class="b-example-divider"></div>
 
-                            <div class="row">
+        <div class="row mb-2 bg-dark" style="padding: 50px 50px 50px 50px;" >
+            
 
-                                <div class="col">
-                                    <img class="border rounded" src="j-un.png" alt="" width="200" height="250">
-                                    <figcaption>
-                                    <h4><strong>Safari</strong></h4>
-                                    <h6>Action<br>677 FCFA</h6>
-                                    </figcaption>
-                                </div>
-                                <div class="col">
-                                            
-                                    <img class="border rounded" src="j-trois.png" alt="" width="200" height="250">
-                                    <figcaption>
-                                    <h4><strong>Entrepreneur</strong></h4>
-                                    <h6>Simulation<br>3600 FCFA</h6>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col">
-                                    <img class="border rounded" src="j-quatre.png" alt="" width="200" height="250">
-                                    <figcaption>
-                                    <h4><strong>On vote !</strong></h4>
-                                    <h6>Simulation<br>677 FCFA</h6>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col">
-                                    <img class="border rounded" src="j-trois.png" alt="" width="200" height="250">
-                                    <figcaption>
-                                        <h4><strong>Entrepreneur</strong></h4>
-                                        <h6>Simulation<br>677 FCFA</h6>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col">
-                                    <img class="border rounded" src="j-quatre.png" alt="" width="200" height="250">
-                                    <figcaption>
-                                        <h4><strong>On vote !</strong></h4>
-                                        <h6>Simulation<br>677 FCFA</h6>
-                                    </figcaption>
-                                </div>
-                                
+            <!-- Debut jeux WEB -->
+            
+            <div class="col-md-6" style="padding: 50px 50px 50px 50px;">
+                <strong class="d-inline-block mb-2" style="padding: 0px 30px 0px 30px;">Nos meilleures <br> jeux WEB</strong>
+              <div class="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+                
+                <div class="col p-4 d-flex flex-column position-static">
+                  
+                  
+                    <div>
+                        <div class="d-flex text-muted pt-3">
+                            <img src="img/ptit K.Store_page1_image31.png" class="me-2" alt="" width="45" height="64">
+                    
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                            <div class="d-flex justify-content-between">
+                                <strong class="text-gray-dark"> Entrepreneur</strong>
+                                <a  class="btn rounded-pill btn-outline-primary btn-sm" href="#"> Jouer</a>
+                            </div>
+                            <span class="d-block">Simulation</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Ligne -3- contenu-->
-                    <div class="row">
+                    <div>
+                        <div class="d-flex text-muted pt-3">
+                            <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                    
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                            <div class="d-flex justify-content-between">
+                                <strong class="text-gray-dark">On Vote !</strong>
+                                <a class=" btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                            </div>
+                            <span class="d-block">Quiz</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    </div>                    
+                    <div>
+                        <div class="d-flex text-muted pt-3">
+                            <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                    
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                            <div class="d-flex justify-content-between">
+                                <strong class="text-gray-dark">Safari</strong>
+                                <a class=" btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                            </div>
+                            <span class="d-block">Action</span>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="border rounded" src="image32.jpg" alt="" width="200" height="250">
+                    <figcaption>xxxxxxxxxxxxx</figcaption>
+        
+                </div>
+              </div>
+            </div>
+            <!-- Fin jeux WEB -->
 
+
+            <!-- Debut Appli android -->
+            <div class="col-md-6" style="padding: 50px 50px 50px 50px;">
+                <strong class="d-inline-block mb-2" style="padding: 0px 30px 0px 30px;">Nos meilleures <br> Appli android</strong>
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                    
+                    
+                      <div>
+                          <div class="d-flex text-muted pt-3">
+                            <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                      
+                              <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                              <div class="d-flex justify-content-between">
+                                  <strong class="text-gray-dark">Entrepreneur</strong>
+                                  <a class=" btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                              </div>
+                              <span class="d-block">Simulation</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div>
+                          <div class="d-flex text-muted pt-3">
+                            <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                      
+                              <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                              <div class="d-flex justify-content-between">
+                                  <strong class="text-gray-dark">On Vote !</strong>
+                                  <a class="  btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                              </div>
+                              <span class="d-block">Quiz</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div>
+                          <div class="d-flex text-muted pt-3">
+                            <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                      
+                              <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                              <div class="d-flex justify-content-between">
+                                  <strong class="text-gray-dark">Safari</strong>
+                                  <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                              </div>
+                              <span class="d-block">Action</span>
+                              </div>
+                          </div>
+                      </div>
+  
+                  </div>
+                  <div class="col-auto d-none d-lg-block">
+                    
+                    <img class="border rounded" src="image32.jpg" alt="" width="200" height="250">
+                    <figcaption>xxxxxxxxxxxxx</figcaption>
+                  </div>
+                </div>
+            </div>
+              <!-- Fin Appli android -->
+        </div>
+
+
+
+        <div class="b-example-divider"></div>
+
+
+
+        <div class="bg-dark">
+
+            <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                <div class="col-md-12 px-0 ">
+                    <strong class="d-inline-block mb-2" >Le Top des telechargement</strong>
+                    <div class="row g-0  overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                        
+                        
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">Entrepreneur</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">@username</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">On Vote !</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">Quiz</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            
+                            
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">Entrepreneur</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">@username</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">Safari</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">@username</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">Entrepreneur</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">@username</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="img/ptit K.Store_page1_image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">On Vote !</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">@username</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="img/ptit K.Store_page1_image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">Entrepreneur</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">@username</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex text-muted pt-3">
+                                    <img src="img/ptit K.Store_page1_image31.png" class="me-2" alt="" width="45" height="64">
+                            
+                                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <strong class="text-gray-dark">Safari</strong>
+                                        <a class="btn rounded-pill btn-outline-primary btn-sm" href="#">Jouer</a>
+                                    </div>
+                                    <span class="d-block">@username</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="b-example-divider" style="background-color: #ffffff;"></div>
+
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-12 px-0 ">
+            <strong class="d-inline-block mb-2" style="padding: 0px 50px 0px 50px;">Nos Rubrique</strong>
+            <div class="row g-0  overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                
+                <div class="col p-4 d-flex flex-column position-static">
+                    <div>
+                        <div class="d-flex text-muted pt-3">
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                <div class="d-flex justify-content-between">                  
+                                    <a href="#" style="text-decoration: none;">
+                                        <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                        <strong style="color:#ffffff"> xxxx</strong>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex text-muted pt-3">
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                <div class="d-flex justify-content-between">                          
+                                    <a href="#" style="text-decoration: none;">
+                                        <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                        <strong style="color:#ffffff"> xxxx</strong>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col p-4 d-flex flex-column position-static">
+                    <div>
+                        <div class="d-flex text-muted pt-3">
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                <div class="d-flex justify-content-between">
+                              
+                                    <a href="#" style="text-decoration: none;">
+                                        <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                        <strong style="color:#ffffff"> xxxx</strong>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex text-muted pt-3">
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">  
+                                        <a href="#" style="text-decoration: none;">
+                                            <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                            <strong style="color:#ffffff"> xxxx</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <div>
+                            <div class="d-flex text-muted pt-3">
+                                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                  
+                                        <a href="#" style="text-decoration: none;">
+                                            <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                            <strong style="color:#ffffff"> xxxx</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex text-muted pt-3">
+                                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                  
+                                        <a href="#" style="text-decoration: none;">
+                                            <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                            <strong style="color:#ffffff"> xxxx</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col p-4 d-flex flex-column position-static">
+                    
+                    
+                        <div>
+                            <div class="d-flex text-muted pt-3">
+                                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                  
+                                        <a href="#" style="text-decoration: none;">
+                                            <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                            <strong style="color:#ffffff"> xxxx</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex text-muted pt-3">
+                                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                                    <div class="d-flex justify-content-between">
+                                  
+                                        <a href="#" style="text-decoration: none;">
+                                            <img src="img/ptit K.Store_page1_image31.png" class="rounded-circle" alt="" width="32" height="32">
+                                            <strong style="color:#ffffff"> xxxx</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-        </div>
+
     </main>
     <br>
 
     <!-- PIED DE LA PAGE -->
     <footer  class="" style="background-color: black;">
+        <br>
+        <div class="container">
+
+            <div class="row row-cols-4">
+                <div class="col">
+                    <button type="button" class="btn btn-dark btn-lg "> Conditions Générales </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark btn-lg"> Se desabonner </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark btn-lg"> Contact</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark btn-lg">Mon Compte</button>
+                </div>
+            </div>
+        </div>
+        <br>
         <p class="text-center"> ©Kumakan 2022 
             <a href="https://Kumakan.com/">Site Creer par Kumakan</a> Pour 
             <a href="https://twitter.com/mdo">Gaming</a>.
         </p>
-    
+        <br>
 
     </footer>
 </body>

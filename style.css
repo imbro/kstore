@@ -13,6 +13,14 @@ button {
     outline: #ffffff !important;
     
 }
+
+
+#abc {
+    border: 2px solid dark;
+  border-radius: 25px;
+}
+
+
 /*li {
     𝕋𝕦𝕟𝕛𝕚 
 
